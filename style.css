@@ -10,18 +10,18 @@
 
 /* Email Field */
 
-.go2029514686 {
+.go3523391191 {
     border: 0 !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
 }
 
-.go2029514686::placeholder {
+.go3523391191::placeholder {
     color: rgba(0,0,0,0.6) !important;
 }
 
-.go2029514686:hover {
+.go3523391191:hover {
     border: 0 !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
