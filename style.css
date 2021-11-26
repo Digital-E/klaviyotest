@@ -1,5 +1,49 @@
+/* Email Field */
+
 .go2029514686 {
+    border: none !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
+}
+
+.go2029514686::placeholder {
+    color: rgba(0,0,0,0.6) !important;
+}
+
+.go2029514686:hover {
+    border: none !important;
+    border-radius: 0 !important;
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+}
+
+/* Telephone Field */
+
+.go1671970111 {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid black !important;
+}
+
+/* Button */
+
+.go2985267405 {
+    border: none !important;
+    border-top: 1px solid black !important; 
+    height: 28px !important;
+}
+
+.go2985267405:hover {
+    border: none !important;
+    border-top: 1px solid black !important; 
+}
+
+/* Close Button */
+
+.klaviyo-close-form {
+    outline: none !important;
+    border-left: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    padding: 5px !important;
 }
