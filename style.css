@@ -1,27 +1,34 @@
-/* Top Field */
+.klaviyo-form {
+    width: 380px !important;
+}
 
-.kl-private-quill-wrapper-Lkqws1 {
-    width: 90% !important;
-};
-
-.kl-private-quill-wrapper-Lkqws1 strong {
-    font-family: 'Sohne Fett' !important;
+@media(max-width: 600px) {
+    .klaviyo-form {
+        width: 350px !important;
+    }
 }
 
 /* Email Field */
 
-.go3523391191 {
+.kl-private-reset-css-Xuajs1[type="email"] {
     border: 0 !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
 }
 
-.go3523391191::placeholder {
+/* Top Field */
+
+.kl-private-quill-wrapper-Lkqws1 .ql-editor p {
+    width: 90% !important;
+    font-family: 'Sohne Buch' !important;
+};
+
+.kl-private-reset-css-Xuajs1[type="email"]::placeholder {
     color: rgba(0,0,0,0.6) !important;
 }
 
-.go3523391191:hover {
+.kl-private-reset-css-Xuajs1[type="email"]:hover {
     border: 0 !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
@@ -45,33 +52,53 @@
     color: rgba(0,0,0,0.6) !important;
 }
 
+.go3843968785:hover {
+    border: 0 !important;
+    border-bottom: 1px solid black !important;
+    border-color: black !important;
+}
+
 /* Telephone dropdown */
 
-.go1516186985 span,
-.go1516186985 div
+.kl-private-reset-css-Xuajs1[role="option"] span,
+.kl-private-reset-css-Xuajs1[role="option"] div
  {
     font-family: 'Sohne Buch' !important;
     font-size: 13px !important;
+    align-items: center !important;
 }
 
-.go3843968785 > div:nth-child(1) {
+.go1671970111 > div:nth-child(1) {
     width: 30px !important;
 }
 
-.go3843968785 > div:nth-child(1) > svg {
+.go1671970111 > div:nth-child(1) > svg {
     display: none !important;
+}
+
+/* Telephone dropdown Search Country */
+.kl-private-reset-css-Xuajs1[aria-describedby="klaviyo_ariaid_4"] {
+    border: 0 !important;
+}
+
+/* Telephone dropdown list */
+/* #downshift-0-menu {
+    border: 0 !important;
+} */
+.kl-private-reset-css-Xuajs1[role="listbox"] {
+    border: 0 !important;
 }
 
 /* Button */
 
-.go2985267405 {
+.kl-private-reset-css-Xuajs1[type="button"] {
     border: none !important;
     border-top: 1px solid black !important; 
     height: 28px !important;
     border-color: black !important;
 }
 
-.go2985267405:hover {
+.kl-private-reset-css-Xuajs1[type="button"]:hover {
     border: none !important;
     border-top: 1px solid black !important; 
 }
