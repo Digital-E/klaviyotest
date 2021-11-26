@@ -1,7 +1,17 @@
+/* Top Field */
+
+.kl-private-quill-wrapper-Lkqws1 {
+    width: 90% !important;
+};
+
+.kl-private-quill-wrapper-Lkqws1 strong {
+    font-family: 'Sohne Fett' !important;
+}
+
 /* Email Field */
 
 .go2029514686 {
-    border: none !important;
+    border: 0 !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
@@ -12,18 +22,34 @@
 }
 
 .go2029514686:hover {
-    border: none !important;
+    border: 0 !important;
     border-radius: 0 !important;
     border-top: 1px solid black !important;
     border-bottom: 1px solid black !important;
+    border-color: black !important;
 }
 
 /* Telephone Field */
 
 .go1671970111 {
-    border: none !important;
+    border: 0 !important;
     border-radius: 0 !important;
     border-bottom: 1px solid black !important;
+}
+
+.go1671970111 > div:nth-child(1) {
+    padding-left: 20px !important;
+}
+
+.go1671970111::placeholder {
+    color: rgba(0,0,0,0.6) !important;
+}
+
+/* Telephone dropdown */
+
+.go1516186985 span {
+    font-family: 'Sohne Buch' !important;
+    font-size: 13px !important;
 }
 
 /* Button */
@@ -32,6 +58,7 @@
     border: none !important;
     border-top: 1px solid black !important; 
     height: 28px !important;
+    border-color: black !important;
 }
 
 .go2985267405:hover {
