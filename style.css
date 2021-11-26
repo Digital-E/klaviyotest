@@ -31,17 +31,17 @@
 
 /* Telephone Field */
 
-.go1671970111 {
+.go3843968785 {
     border: 0 !important;
     border-radius: 0 !important;
     border-bottom: 1px solid black !important;
 }
 
-.go1671970111 > div:nth-child(1) {
+.go3843968785 > div:nth-child(1) {
     padding-left: 20px !important;
 }
 
-.go1671970111 input::placeholder {
+.go3843968785 input::placeholder {
     color: rgba(0,0,0,0.6) !important;
 }
 
@@ -54,11 +54,11 @@
     font-size: 13px !important;
 }
 
-.go1671970111 > div:nth-child(1) {
+.go3843968785 > div:nth-child(1) {
     width: 30px !important;
 }
 
-.go1671970111 > div:nth-child(1) > svg {
+.go3843968785 > div:nth-child(1) > svg {
     display: none !important;
 }
 
